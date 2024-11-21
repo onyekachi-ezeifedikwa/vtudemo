@@ -1,0 +1,52 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+        input{
+            width: 40%;
+            height:40px ;
+            margin-top:10% ;
+            margin-left:28% ;
+            margin-right:28% ;
+            
+            border-radius:12px ;
+            border-left: 0px;
+            border-right: 1px solid rgb(0, 0, 0);
+            border-top: 1px solid rgb(0, 0, 0);
+            border-left: 1px solid blue;
+            border-bottom: 1px solid blue;
+
+        }
+        button{
+            width: 10%;
+            height:30px ;
+            margin-left:42% ;
+            margin-right:42% ;
+            background-color: blue;
+            color: white;
+            
+
+        }
+        h3{
+           position: relative; 
+           left:34% ;
+           top:10% ;
+           color:orange ;
+        }
+    </style>
+</head>
+<body>
+    
+    <h3><strong>Welcome {{user}} please Topup Your Wallet</strong></h3>
+   <form action="fund">
+
+    <input type="text" id="amount" name="amount" placeholder="enter amount">
+    <br>
+    <br>
+    <button><STrong>Deposit</STrong></button>
+   </form> 
+</body>
+</html>

@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            background-color: rgb(171, 169, 169);
+        }
+        div.all{
+            background-color: white;
+            width:37% ;
+            height: 70%;
+            margin-left:30% ;
+            margin-right:30% ;
+            margin-top: 3%;
+        }
+        div.next{
+
+            margin-top: 10%;
+        }
+select{
+width: 40%;
+margin-left:27% ;
+margin-right:27% ;
+
+
+}
+input{
+width: 40%;
+margin-left:27% ;
+margin-right:27% ;
+
+
+}
+label{
+
+margin-left:27% ;
+margin-right:27% ;
+
+}
+button{
+
+margin-left:27% ;
+margin-right:27% ;
+width:20% ;
+height:8% ;
+background-color: rgb(64, 64, 252);
+color:white ;
+border-radius:12px ;
+border-bottom:0px ;
+border-left:opx ;
+border-right: opx;
+
+ 
+}
+h2{
+margin-left:170px ;
+margin-right:170px;
+position: relative;
+top:20px ;
+
+
+}
+
+    </style>
+</head>
+<body>
+    <form action="buydata" method="get">
+        <div class="all">
+            <h2>Buy Data</h2>
+        <div class="next">
+            <label for="mobilenumber"><strong>mobilenumber</strong></label>
+            <br>
+        <input type="text" id="mobilenumber" name="mobilenumber" placeholder="enter phone nummber">
+        <br>
+        <br>
+        
+        
+        <label for="datapln"><strong>dataplan</strong></label>
+        <br>
+        <select type="text" id="dataplan" name="dataplan" placeholder="enter dataplan">
+            select
+            <option value="NONE">-- SELECT --- </option>
+            <option value="50">N50.00 for 50mb- 30days (corporate)  </option>
+            <option value="150">150  for 150mb- 30days (corporate)</option>
+            <option value="250">250  for 250mb- 30days (corporate)</option>
+            <option value="500">500  for 500mb- 30days (SME)</option>
+            <option value="1000">1000  for 1000mb- 30days (corporate) </option>
+            <option value="2000">2000  for 2000mb- 30days (corporate)</option>
+            <option value="3000">3000 for 3000mb- 30days (corporate)</option>
+            <option value="5000">5000  for 5000mb- 30days (corporate)</option>
+
+        
+        </select>
+        <br>
+        <br>
+        
+        
+
+        <label for="mobilenetwork"><strong>mobilenetwork</strong></label>
+        <br>
+        <select type="text" id="mobilenetwork" name="mobilenetwork" placeholder="enter phone mobile network">
+            <option value="NONE">-- SELECT --</option>
+            <option value="01">mtn</option>
+            <option value="04">airtel</option>
+            <option value="02">glo</option>
+            <option value="03">9mobile</option>
+        </select>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        
+    
+        <button><strong>BUY</strong></button>
+    </div>
+    </div>
+    </form>
+</body>
+</html>
