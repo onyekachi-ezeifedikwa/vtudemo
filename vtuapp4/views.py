@@ -26,7 +26,7 @@ def register (request):
       user.last_name=last_name
       user.save()
       return redirect(Login)
-     return render(request,"register.html")
+     return render(request,"index.html")
 
     
 
